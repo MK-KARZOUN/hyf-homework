@@ -1,62 +1,145 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework-1</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
+
 <body>
+  <main>
+    <section class="header">
 
-    <h1>Cat Photo App</h1>
-    <main>
-        <section>
-            <h2>Cat Photos .</h2>
-            <!-- TODO: Add link to cat photos -->
-            <p>Click here to view more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a>.</p>
-            <a href="https://freecatphotoapp.com"><img 
-                    src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
-                    alt="A cute orange cat lying on its back."></a>
-        </section>
-        <section>
-            <h2>Cat Lists</h2>
-            <h3>Things cats love:</h3>
-            <ul>
-                <li>cat nip</li>
-                <li>laser pointers</li>
-                <li>lasagna</li>
-            </ul>
-            <figure>
-                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
-                    alt="A slice of lasagna on a plate.">
-                <figcaption>Cats <em>love</em> lasagna.</figcaption>
-            </figure>
-            <h3>Top 3 things cats hate:</h3>
-            <ol>
-                <li>flea treatment</li>
-                <li>thunder</li>
-                <li>other cats</li>
-            </ol>
-            <figure>
-                <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
-                    alt="Five cats looking around a field.">
-                <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
-            </figure>
-        </section>
-        <section>
-            <h2>Cat Form</h2>
-            <form action="https://freecatphotoapp.com/submit-cat-photo">
-                <fieldset>
-                    <legend>Is your cat an indoor or outdoor cat?</legend>
-                    <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor"> Indoor</label>
-                    <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
-                </fieldset>
-                <fieldset>
-                    
-                </fieldset>
-                <input type="text" name="catphotourl" placeholder="cat photo URL" required>
-                <button type="submit">Submit</button>
+      <div class="nav">
+        <p>Malek karzoun</p>
+        <p>29/10/22</p>
+      </div>
 
-            </form>
-            <a href="http://google.com" target="_blank" rel="noopener noreferrer">google</a>
-        </section>
-    </main>
+    </section>
+    <section class="personal-info">
+
+      <img src="https://i.pinimg.com/222x/7d/1a/3f/7d1a3f77eee9f34782c6f88e97a6c888.jpg" alt="profile-picture">
+
+      <div class="contact-info">
+
+        <h3>Contact-Info :</h3>
+        <p>Gmail:<a href="mailto:karzounmalek99$gmail.com"> karzounmalek99@gmail.com</a></p>
+        <p>Phone:<a href="tel:+4581236716"> 81236716</a></p>
+
+        <div class="social-icons">
+          <a href="https://github.com/MK-KARZOUN"><i class="fa-brands fa-github-alt"></i></a>
+          <a href="https://www.facebook.com/home.php"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/malekkarzoun/"><i class="fa-brands fa-square-instagram"></i></a>
+        </div>
+
+      </div>
+
+    </section>
+
+    <hr>
+    <!--Horizintal Rule-->
+    <section class="skills">
+
+      <div class="intro">
+        <h2>About me</h2>
+        <p>
+          <span class="L">L</span>orem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur debitis sunt odio eum tempora, sapiente
+          impedit aut est harum accusantium totam aliquam. Amet, dolore quasi veritatis sint maxime at? Beatae maxime
+          ipsum eos fugiat error incidunt voluptas repudiandae iusto, numquam sequi laborum sapiente labore, velit cumque
+          placeat soluta nihil ut? ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, facere mollitia id
+          iusto dolorum, natus nostrum ab optio sunt delectus neque aperiam autem molestias accusantium quasi. Magni saepe
+          voluptate officia perspiciatis vitae, iste praesentium perferendis possimus consequatur consectetur alias
+          aliquam hic quaerat voluptatum architecto porro cum laborum sapiente eum recusandae est modi error debitis
+          totam! Optio dolorum voluptatem odit deleniti.
+        </p>
+      </div>
+
+      <div class="work-experince">
+
+        <h2>Work Experince</h2>
+
+        <div class="side-by-side">
+
+          <div class="common-word">
+            <p>Worked in</p>
+          </div>
+
+          <div class="work-places">
+            <li> Cold storage warehouse</li>
+            <li> Coffee shop</li>
+            <li> Kindergarten </li>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="education">
+
+        <h2>Education</h2>
+
+        <div class="education-places">
+
+          <div>
+            <img src="https://www.humanact.dk/wp-content/uploads/2013/02/Aarhus-HF-og-VUC-logo-200x100.jpg"
+              alt="vuc logo">
+            <p>HF-enkeltfag</p>
+            <p>20<span class="nr">18</span>/20<span class="nr">20</span></p>
+          </div>
+
+          <div>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn_z4Om_bEnaZdNns9qd6pTbGyZDgwYX49og&usqp=CAU"
+              alt="aarhus universitet logo">
+            <p>Entrance course to engineering programs </p>
+            <p>One semester studying building design</p>
+            <p>20<span class="nr">20</span>/20<span class="nr">22</span></p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="language">
+        <h2>Languages I Speak</h2>
+        <div class="all-languages">
+          <div>
+            <p>Arabic</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+
+          <div>
+            <p>English</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+
+          <div>
+            <p>Danish</p>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+  </main>
 </body>
 
 </html>

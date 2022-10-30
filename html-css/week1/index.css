@@ -1,0 +1,170 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+hr{
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
+body{
+  width: 100%;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color:rgba(137, 137, 138, 0.696);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main{
+  width: 1000px;
+}
+
+h1{
+  text-align: center;
+  padding: 20px 0;
+}
+
+h2{
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.nav{
+position: absolute;
+right: 0;
+left: 0;
+top:0;
+display: flex;
+justify-content: space-between;
+font-size: 20px;
+color: aliceblue;
+background-color: black;
+padding: 10px;
+border-radius: 5px;
+}
+
+.personal-info{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 25px 0px;
+}
+
+.personal-info img{
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.contact-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  line-height: 1.5rem;
+}
+
+.contact-info a{
+  text-decoration: none;
+  color:black;
+}
+
+.contact-info a:hover{
+  color: blue;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  width: 60px;
+}
+
+.social-icons a{
+  color: blue;
+}
+
+.intro{
+display: flex;
+flex-direction: column;
+padding: 10px;
+align-items: center;
+justify-items: center;
+margin: 10px 0;
+}
+
+.intro p{
+  line-height: 1.3rem ;
+}
+
+.intro .L{
+font-size: 25px;
+}
+
+.work-experince{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px;
+}
+
+.side-by-side{
+  display: flex;
+  margin-top: 10px;
+}
+
+.common-word{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.work-experince li{
+list-style: none;
+line-height: 1.3rem;
+}
+
+.education{
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 100px 0;
+  text-align: center;
+}
+
+.education img{
+  height: 100px;
+  width: 120px;
+}
+
+.education-places{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.language{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom:100px ;
+}
+
+.all-languages{
+  display: flex;
+  justify-content: space-evenly;
+}
+.checked{
+  color: blue;
+}
+
+.nr{
+  color: blue;
+}
+
