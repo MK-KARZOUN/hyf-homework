@@ -35,6 +35,11 @@ header{
   border-bottom: 1px solid rgba(164, 157, 157, 0.2);
 }
 
+.article h2{
+  color: rgba(164, 157, 157);
+  font-size: 16px;
+}
+
 .article h1{
   padding-bottom:5px;
 }
