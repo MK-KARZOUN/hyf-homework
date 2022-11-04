@@ -16,7 +16,7 @@
     align-items: center;
   }
 
-  article{
+  .article{
     padding: 20px 0;
     background-color: black;
     border-bottom: none;

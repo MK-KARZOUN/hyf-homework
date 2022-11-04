@@ -29,13 +29,13 @@ header{
   flex-wrap: wrap;
 }
 
-article{
+.article{
   padding: 30px 0 50px var(--padding);
   background-color: #fafafa;
   border-bottom: 1px solid rgba(164, 157, 157, 0.2);
 }
 
-article h1{
+.article h1{
   padding-bottom:5px;
 }
 
