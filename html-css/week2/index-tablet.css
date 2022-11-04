@@ -16,6 +16,10 @@
     align-items: center;
   }
 
+  h1{
+    font-size: 25px;
+  }
+
   .article{
     padding: 20px 0;
     background-color: black;
