@@ -104,6 +104,7 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
+    column-gap: 30px;
   }
 
   .logo{
