@@ -80,6 +80,8 @@
     color: #000;
     width: 100%;
     gap: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   footer a{
