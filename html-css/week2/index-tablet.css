@@ -95,14 +95,14 @@
 
   .navigation-menu{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     column-gap: 50px;
   }
 
   .archives{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
     column-gap: 30px;
   }
