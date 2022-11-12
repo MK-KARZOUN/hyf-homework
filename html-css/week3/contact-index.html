@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact-info</title>
+    <link rel="stylesheet" href="contact-style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="top">
+        <h1>How can we reach you?</h1>
+
+        <hr />
+
+        <label>Progress</label>
+        <progress max="100" value="66"></progress>
+
+        <p>
+          We will probably need to stay in touch somehow. Let us know how we
+          carn reach you?
+        </p>
+      </div>
+      <form action="#">
+        <fieldset>
+          <label>
+            <span>Email</span>
+            <strong>
+              <span class="required">*</span>
+            </strong>
+            <input type="email" name="email" />
+          </label>
+
+          <label>
+            <span>Phone</span>
+            <input type="tel" name="phonenumber" />
+          </label>
+
+          <label>
+            <span>Password</span>
+            <strong>
+              <span class="required">*</span>
+            </strong>
+            <input type="password" name="password" />
+          </label>
+
+          <label>
+            <span>Re-enter Password</span>
+            <strong>
+              <span class="required">*</span>
+            </strong>
+            <input type="password" name="password" />
+          </label>
+        </fieldset>
+
+        <hr />
+
+        <ul>
+          <p>I want sign up for the newsletter</p>
+
+          <label>
+            <span>Weekly news</span>
+            <input type="radio" name="newsOption" value="weekly news" />
+          </label>
+
+          <label>
+            <span>Monthly news</span>
+            <input type="radio" name="newsOption" value="monthly news" />
+          </label>
+
+          <label for="noNews">
+            <span>Dont't send me news</span>
+            <input type="radio" name="newsOption" value="noNews" />
+          </label>
+        </ul>
+
+        <div class="footer">
+          <button type="submit">
+            <a href="user-info-index.html"> Previous </a>
+          </button>
+
+          <button type="submit">
+            <a href="prefernces-index.html">Next</a>
+          </button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
