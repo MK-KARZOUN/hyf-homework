@@ -19,6 +19,7 @@ body{
   justify-content: center;
   align-items: center;
   font-size: 20px;
+  font-family: sans-serif;
 }
 
 main{
@@ -102,7 +103,8 @@ margin: 10px 0;
 }
 
 .intro p{
-  line-height: 1.3rem ;
+  line-height: 2rem ;
+  font-size: 20px;
 }
 
 .intro .L{
