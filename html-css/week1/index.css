@@ -83,6 +83,8 @@ border-radius: 5px;
   justify-content: space-between;
   justify-items: center;
   width: 60px;
+  padding-top: 10px;
+  gap:5px;
 }
 
 .social-icons a{
