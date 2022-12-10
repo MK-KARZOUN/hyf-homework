@@ -80,7 +80,7 @@ const seriesDurations = [
     minutes: 20,
   },
 ];
-function timeForEachSeries() {
+function logOutSeriesText() {
   let result = [];
   for (let i = 0; i < seriesDurations.length; i++) {
     result.push(
@@ -94,7 +94,7 @@ function timeForEachSeries() {
   return result;
 }
 //this code turn the array to one string (.join) spearet them by a newline (\n)
-console.log(timeForEachSeries().join("\n"));
+console.log(logOutSeriesText().join("\n"));
 
 console.log(/********************************/)
 
