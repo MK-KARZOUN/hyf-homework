@@ -1,8 +1,8 @@
 //When will we be there??
 
 const travelInformation = {
-  speed: 100,
-  destinationDistance: 432,
+  speed: 100, // speed unit is km/h
+  destinationDistance: 432, // distance unit is km
 };
 
 //one way
